@@ -1,0 +1,124 @@
+body{
+    background-color: #ffffff;
+    height:1024px;
+    width:1440px;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+}
+
+#navbar {
+    width: 2000px;
+    background-color:#1D891B;
+    height: 40px;
+    color:#ffffff;
+    padding-left:140px;
+    padding-top:70px;
+    padding-bottom:40px;
+   
+}
+.navbar-h2{
+    float:right;
+    position:relative;
+    left:-250px;
+    color:#ffffff;
+    top:-70px;
+    font-size: 25px;
+
+}
+
+#container{
+    width:1600px;
+    height:900px;
+    position:relative;
+    left:230px;
+    padding:30px 150px;
+}
+p{
+    color:#000000;
+    font-size:30px;
+    font-weight: 600;
+
+}
+
+#answer {
+    box-sizing: border-box;
+    width:1300px;
+    height:300px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #000000;
+    font-size: 30px;
+    padding:20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+#button{
+    width:1250px;
+    height:210px;
+    position:relative;
+    left:55px;
+    top:25px;
+    
+}
+
+.button-numbers{
+    box-sizing: border-box;
+    width:60px;
+    height:40px;
+    background-color:#ffffff;
+    border-radius:10px;
+    position:relative;
+    margin:10px;
+    border:2px #000000 solid;
+    font-weight: 400;
+    font-size:20px;
+    padding-left:23px;
+    padding-top:7px;display: inline-flex;
+
+}
+
+.button-numbers:hover{
+    color:#1D891B;
+    border-color: #1D891B;
+}
+
+#submit {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 20px;
+    float: left;
+    position:relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    width:130px;
+    height:50px;
+    border: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#submit-2 {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 20px;
+    float: right;
+    position:relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    width:130px;
+    height:50px;
+    border: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 600;
+    left:-300px;
+    margin-top: 20px;
+}

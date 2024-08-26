@@ -1,0 +1,116 @@
+body{
+    background-color: #ffffff;
+    height:1024px;
+    width:1440px;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+}
+
+#navbar {
+    width: 2000px;
+    background-color:#1D891B;
+    height: 40px;
+    color:#ffffff;
+    padding-left:80px;
+    padding-top:40px;
+    padding-bottom:40px;
+   
+}
+
+#section-1{
+    width:500px;
+    height:800px;
+    background-color:#ffffff;
+    border-right:2px black solid;
+    
+
+}
+
+.image{
+    width:300px;
+    height:300px;
+    box-sizing: border-box;
+    border-radius:20px;
+    background-color: #ffffff;
+    position:relative;
+    top:50px;
+    left: 150px;
+    box-shadow: 10px 7px 15px 20px rgba(0, 0, 0, 0.02);
+}
+
+.identity{
+    position:relative;
+    left: 150px;
+    color:black;
+    font-weight: 600;
+    font-size: 25px;
+    top:60px;
+}
+
+#section-2 {
+    width:800px;
+    height: 800px;
+    background-color:#ffffff;
+
+}
+
+#subject{
+    width:350px;
+    height:300px;
+    box-shadow: 10px 7px 15px 20px rgba(0, 0, 0, 0.02);
+    position:relative;
+    background-color:#ffffff;
+    top:-770px;
+    left:700px;
+    border-radius:20px;
+}
+
+h1{
+    position: relative;
+    top:70px;
+    left: 105px;
+}
+.subject-content-1{
+    font-weight:600;
+    position:relative;
+    top:60px;
+    padding:35px;
+}
+.subject-content-2{
+    position:relative;
+    top:70px;
+    padding:20px;
+    font-weight: 400;
+    color:#FF3D3D;
+}
+
+#subject-2{
+    width:350px;
+    height:300px;
+    box-shadow: 10px 7px 15px 20px rgba(0, 0, 0, 0.02);
+    position:relative;
+    background-color:#ffffff;
+    top:-1089px;
+    left:1070px;
+    border-radius:20px;
+}
+
+.subject-content-3{
+    font-weight:600;
+    position:relative;
+    top:60px;
+    padding:35px;
+    left:30px;
+}
+.subject-content-4{
+    position:relative;
+    top:70px;
+    padding:20px;
+    font-weight: 400;
+    color:#FF3D3D;
+}
